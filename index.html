@@ -8,42 +8,48 @@
   </head>
   <body>
     <header>
-      <div>
-        <img src="img/logo-header.png" alt="sky-house" />
-        <nav>
-          <ul>
-            <li>მთავარი</li>
-            <li>ჩვენ შესახებ</li>
-            <li>სერვისები</li>
-            <li>პროექტები</li>
-            <li>პარტნიორები</li>
-            <li>კონტაქტი</li>
-          </ul>
-        </nav>
+      <div class="header">
+        <div class="header2">
+          <img src="img/logo-header.png" alt="sky-house" class="header-logo" />
+          <nav class="nav">
+            <ul class="ul">
+              <li class="mtavari"><a href="#">მთავარი</a></li>
+              <li><a href="#">ჩვენ შესახებ</a></li>
+              <li><a href="#">სერვისები</a></li>
+              <li><a href="#">პროექტები</a></li>
+              <li><a href="#">პარტნიორები</a></li>
+              <li><a href="#" class="last-li">კონტაქტი</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
-    <section>
-      <div>
-        <img src="img/section1.png" alt="bilder-sky-house" />
-        <div>
+    <section class="section1">
+        <img
+          src="img/section1.png"
+          alt="bilder-sky-house"
+          class="section-img1"/>
+   
           <h2 class="img-section-h2">
             რატომ ვიყენებთ მას და საიდან მოდის ეს ტექსტი?
           </h2>
-          <article>
-            <img src="img/section2.png" alt="bilder-sky-house" />
-          </article>
-          <article>
-            <img src="img/section3.png" alt="bilder-sky-house" />
-          </article>
-          <article>
-            <img src="img/section4.png" alt="bilder-sky-house" />
-          </article>
-          <article>
-            <img src="img/section5.png" alt="bilder-sky-house" />
-          </article>
-          <article>
-            <img src="img/section6.png" alt="bilder-sky-house" />
-          </article>
+          <div class="image-5">
+            <article>
+              <img src="img/section2.png" alt="bilder-sky-house" />
+            </article>
+            <article>
+              <img src="img/section3.png" alt="bilder-sky-house" />
+            </article>
+            <article>
+              <img src="img/section4.png" alt="bilder-sky-house" />
+            </article>
+            <article>
+              <img src="img/section5.png" alt="bilder-sky-house" />
+            </article>
+            <article>
+              <img src="img/section6.png" alt="bilder-sky-house" />
+            </article>
+          </div>
         </div>
       </div>
     </section>
@@ -93,7 +99,7 @@
       <div>
         <div>
           <section>
-            <div>
+            <div class="contact-section">
               <h2>დამატებითი ინფორმაცია</h2>
               <p>
                 Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო
@@ -110,28 +116,52 @@
                 referrerpolicy="no-referrer-when-downgrade"
                 class="map"
               ></iframe>
-              <div>
-                <div>
+              <div class="email-phone">
+                <div class="phone">
                   <img src="img/phone.png" alt="phone" />
                   <a href="tel:+995 555 444 333" target="_blank"
                     >+995 555 444 333</a
                   >
                 </div>
-                <div>
+                <div class="email">
                   <img src="img/email.png" alt="email" />
                   <a href="mailto:example@gmail.com">example@gmail.com</a>
                 </div>
               </div>
             </div>
-            <form action="#">
+            <form action="#" class="form">
               <label for="user-name">სახელი, გვარი</label>
-              <input type="text" id="user-name" required name="name" />
+              <input
+                type="text"
+                id="user-name"
+                required
+                name="name"
+                class="input"
+              />
               <label for="user-email">ელ. ფოსტა</label>
-              <input type="email" id="user-email" required name="mail" />
+              <input
+                type="email"
+                id="user-email"
+                required
+                name="mail"
+                class="input"
+              />
               <label for="user-number"></label>
-              <input type="number" id="user-number" required name="number" />
+              <input
+                type="number"
+                id="user-number"
+                required
+                name="number"
+                class="input"
+              />
               <label for="user-message">შეტყობინება</label>
-              <input type="message" id="user-message" required name="message" />
+              <input
+                type="message"
+                id="user-message"
+                required
+                name="message"
+                class="input"
+              />
               <button>გაგზავნა</button>
             </form>
           </section>
