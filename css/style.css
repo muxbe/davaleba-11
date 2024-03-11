@@ -63,6 +63,7 @@ ul a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "font2";
 }
 .h3-1 {
   padding-top: 30px;
@@ -108,6 +109,7 @@ ul a {
   display: flex;
   flex-direction: column;
   vertical-align: center;
+  font-family: "font2";
 }
 .footer-info h2 {
   padding-bottom: 30px;
@@ -175,6 +177,7 @@ ul a {
   max-width: 463px;
   width: 100%;
   align-items: end;
+  font-family: "font2";
 }
 .form-div {
   max-width: 460px;
@@ -267,6 +270,9 @@ ul a {
   }
   .section1 {
     margin-top: -50px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
   }
   .section-img1 {
     max-width: 334px;
@@ -274,8 +280,10 @@ ul a {
     border-radius: 15px;
   }
   .image-5 {
+    max-width: 334px;
+    width: 100%;
     display: grid;
-    vertical-align: middle;
+
     justify-content: center;
     align-items: center;
     padding-bottom: 40px;
@@ -287,6 +295,9 @@ ul a {
   }
   .article {
     padding: 0px 0px;
+    max-width: 162px;
+    max-height: 90px;
+    width: 100%;
   }
   .article-image {
     max-width: 162px;
@@ -307,6 +318,14 @@ ul a {
   }
   .image6 {
     display: none;
+  }
+  .section2 {
+    width: 100%;
+    max-width: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .paragraf1 {
     display: none;
